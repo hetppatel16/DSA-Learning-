@@ -1,7 +1,7 @@
 i completed topics like Arrays and Binary search till now
 
 
-Problem statement
+Problem statement:-https://www.naukri.com/code360/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
 You have been given a sorted array/list 'arr' consisting of ‘n’ elements. You are also given an integer ‘k’.
 
 
