@@ -1,4 +1,4 @@
-//you can't run this code because this contains only function that need to solve problem
+```cpp
 
 //accepted by platform
 

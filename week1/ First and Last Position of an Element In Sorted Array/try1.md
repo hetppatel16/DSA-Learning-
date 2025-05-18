@@ -1,4 +1,4 @@
-//you can't run this code because this contains only function that need to solve problem
+```cpp
 
 pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
 {
