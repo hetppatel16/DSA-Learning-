@@ -1,9 +1,6 @@
 ```cpp
 class Solution {
 public:
-int mid(int start,int end){
-    return start + (end-start)/2;
-}
     int pivotIndex(vector<int>& nums) {
         int n = nums.size();
         for(int i=1;i<n;i++){ // calculate prefix sum
