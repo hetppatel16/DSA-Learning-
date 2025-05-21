@@ -20,7 +20,7 @@ public:
 
 
 /*
-time complexity:-O(n)
+time complexity:-O(n+n)=O(2n)~O(n)
 space complexity:-O(1)
 
 and yuppp this is one of the best solution for this question from my side and also on leetcode
