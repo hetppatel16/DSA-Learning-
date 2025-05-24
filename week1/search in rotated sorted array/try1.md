@@ -37,3 +37,14 @@ int binarySearch(vector<int>& nums,int target,int startIdx,int endIdx){
         return -1;  
     }
 };
+
+/*
+time complexity:-O(3*log n)~O(log n) (but needs more iterations then requires may be improve at some point)
+space complexity:-O(1)
+in this solution i tried 3 binary search to finad correct answer.
+like first i try normal binary search in which if the target is found then return the index.
+if not present(not found by simple binary search due to the array is not monotonic completely.
+this is required due to some test cases is sorted not rotated so the code only for rotated sorted array won't works correctly).
+then it goes to find pivot element (in my case pivot is smallest one which is dividing two monotonic parts ).
+now by just checking in which part the target may be present we just apply normal binary search on that monotonic part only
+*/
